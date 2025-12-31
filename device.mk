@@ -18,6 +18,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-miuicamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-miuicamera.xml
 
+# Xiaomi Scanner
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/default-permissions-miuiscanner.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-miuiscanner.xml \
+    $(LOCAL_PATH)/configs/miuiscanner-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/miuiscanner-hiddenapi-package-whitelist.xml \
+    $(LOCAL_PATH)/configs/privapp-permissions-miuiscanner.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-miuiscanner.xml
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
