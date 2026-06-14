@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from peridot OS3.0.7.0.WOLMIXM
+# All unpinned blobs below are extracted from peridot OS3.0.6.0.WNPMIXM
 
 mi_ext/product/data-app/MiuiScanner/MiuiScanner.apk:product/priv-app/MiuiScanner/MiuiScanner.apk
 product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Aperture
